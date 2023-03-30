@@ -82,7 +82,7 @@ constructor(){
 
 _getPosition(){
          //geolocation API
-    navigator.geolocation.getCurrentPosition(this._loadMap.bind(this),function(){alert('Invalid Response')});
+    navigator.geolocation.getCurrentPosition(this._loadMap.bind(this),function(){alert('Kindly permit location access by selecting the location icon in the right corner of Search Bar and reload the page')});
    
     
 }
